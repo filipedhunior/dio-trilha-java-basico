@@ -21,6 +21,9 @@ public class TiposVariaveis {
                     byte maiorByte = 127;
                     byte menorByteNegativo = -1;
                     byte maiorByteNegativo = -127;
+
+                    byte debugTeste = 1+2+3+4;
+                        System.out.println(debugTeste);
                     // byte exceçãoByte = 128; 
                     // byte exceçãoByteNegativo = -128; 
                     // essa parte do codigo não sera executada devido ao linite do byte em relação a quantidade de valores que ele suporta. 
