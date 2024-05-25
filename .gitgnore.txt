@@ -1,0 +1,1 @@
+/tipos-variaves.gitgnore
