@@ -19,9 +19,6 @@ public class ContaTerminal {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Apresentação
-
-
         // Criando os textos para auxiliar na solicitação de informações do programa ao usuario
         System.out.println("");
         System.out.println("[AIT: Assistente Interativa Java]");
