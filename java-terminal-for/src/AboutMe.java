@@ -1,21 +1,21 @@
 import java.util.Scanner;
+import java.util.InputMismatchException;
 import java.util.Locale;
 
 public class AboutMe {
     public static void main(String[] args) throws Exception {
-        
-        System.out.println("");
-
+        try {
+        // instanciando Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-
+        
+        // INTERAÇÃO COM O USUARIO
+        System.out.println("");
         System.out.println("AboutMe Start");
         System.out.println("- Ola, que bom te ter por aqui! Digite seu primeiro nome por favor");
         String nome = scanner.next();
 
         System.out.println("");
-        System.out.println(" Seu nome é " + nome+ "! Que legal, agora digite seu segundo nome por favor");
-
-        
+        System.out.println("- Seu nome é " + nome+ "! Que legal, agora digite seu segundo nome por favor");
         String sobrenome = scanner.next();
 
         
@@ -61,6 +61,10 @@ public class AboutMe {
         }
         System.out.println("");
 
+        scanner.close();
+        } catch (InputMismatchException e) {
+            System.err.println("Os campos 'quantos anos você tem' e 'qual a sua altura' precisam ser numericos. No caso da altura, precisa ser separada por ponto e não virgula (Ex: 1,70)");
+        }
     }
 }
 
