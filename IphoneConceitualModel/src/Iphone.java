@@ -8,7 +8,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
             System.out.println("Musica pausada no Iphone");
         }
         public void selecionarMusica(String musica){
-            System.out.println("Musica "+ musica + "selecionada");
+            System.out.println("Musica "+ musica + "s elecionada");
         }
 
     // TODO: Implementar metodos de Aparelho Telefonico
