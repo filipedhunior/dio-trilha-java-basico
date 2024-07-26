@@ -10,7 +10,12 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         public void selecionarMusica(String musica){
             System.out.println("Musica "+ musica + "selecionada");
         }
-        
-    // TODO: Implementar metodos de reprodutor
+
+    // TODO: Implementar metodos de Aparelho Telefonico
+        public void ligar(String numero){
+            System.out.println("Você esta ligando para " + numero + "no Iphone");
+        }
+        public void atender();
+        public void iniciarCorreioVoz();
     // TODO: Implementar metodos de reprodutor
 }
