@@ -21,5 +21,9 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         public void iniciarCorreioVoz(){
             System.out.println("Iniciando correio de voz no Iphone");
         }
-    // TODO: Implementar metodos de reprodutor
+
+    // TODO: Implementar metodos de Navegador
+        public void exibirPagina(String url);
+        public void adicionarNovaAba();
+        public void atualizarPagina();
 }
