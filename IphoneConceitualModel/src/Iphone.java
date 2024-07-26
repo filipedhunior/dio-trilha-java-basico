@@ -15,7 +15,11 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         public void ligar(String numero){
             System.out.println("Você esta ligando para " + numero + "no Iphone");
         }
-        public void atender();
-        public void iniciarCorreioVoz();
+        public void atender(){
+            System.out.println("Atendendo chamada no Iphone");
+        }
+        public void iniciarCorreioVoz(){
+            System.out.println("Iniciando correio de voz no Iphone");
+        }
     // TODO: Implementar metodos de reprodutor
 }
