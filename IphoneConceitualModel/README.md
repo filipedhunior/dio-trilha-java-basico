@@ -1,7 +1,8 @@
 # Representação abstrata de um Iphone via Diagrama de Classes
 
-Ultilizando o conceito de <code>interface</code>, <code>herança</code>, abstração</code> e polimorfismo</code>, pude desenvolver um molde conceitual de um Iphone em seu lançamento em 2007.
-```` mermaid
+Ultilizando o conceito de `interface`, `herança`, `abstração` e `polimorfismo`, pude desenvolver um molde conceitual de um Iphone em seu lançamento em 2007.
+
+O grande diferencial deste telefone, era a capacidade de emular três outros dispositivos distintos, nele mesmo.```` mermaid
 ---
 title: Iphone Conceitual
 ---
