@@ -10,6 +10,9 @@ classDiagram
 	class Iphone{
 	}
 	class ReprodutorMusical{
+	+ tocar() void
+	+ pausar() void
+	+ selecionarMusica(String musica) void
 	}
 	class aparelhoTelefonico{
 	}
