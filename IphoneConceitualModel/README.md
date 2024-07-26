@@ -2,7 +2,9 @@
 
 Ultilizando o conceito de `interface`, `herança`, `abstração` e `polimorfismo`, pude desenvolver um molde conceitual de um Iphone em seu lançamento em 2007.
 
-O grande diferencial deste telefone, era a capacidade de emular três outros dispositivos distintos, nele mesmo.```` mermaid
+O grande diferencial deste telefone, era a capacidade de emular três outros dispositivos distintos, nele mesmo.
+
+```` mermaid
 ---
 title: Iphone Conceitual
 ---
