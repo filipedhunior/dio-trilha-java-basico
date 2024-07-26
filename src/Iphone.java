@@ -8,7 +8,6 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     }
     public void selecionarMusica(String musica){
         System.out.println(musica +" selecionada no Apple Music do Iphone");
-
     }
 
     // APARELHO TELEFONICO
