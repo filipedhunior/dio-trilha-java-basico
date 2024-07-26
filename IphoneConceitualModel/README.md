@@ -29,6 +29,6 @@ classDiagram
 	    <<interface>> 
 	+ exibirPagina(String url) void
 	+ adicionarNovaAba()void
-	+ atualizarPagina
+	+ atualizarPagina() void
 	}
 ````
