@@ -5,17 +5,30 @@ title: Iphone Conceitual
 ---
 classDiagram
 	Iphone <|-- ReprodutorMusical
-	Iphone <|-- aparelhoTelefonico
+	Iphone <|-- AparelhoTelefonico
 	Iphone <|-- NavegadorInternet
+	
 	class Iphone{
 	}
+	
 	class ReprodutorMusical{
+	    <<interface>> 
 	+ tocar() void
 	+ pausar() void
 	+ selecionarMusica(String musica) void
 	}
-	class aparelhoTelefonico{
+
+	class AparelhoTelefonico{
+	    <<interface>> 
+	+ ligar(String numero) void
+	+ atender() void
+	+ iniciarCorreioVoz() void
 	}
+	
 	class NavegadorInternet{
+	    <<interface>> 
+	+ exibirPagina(String url) void
+	+ adicionarNovaAba()void
+	+ atualizarPagina
 	}
 ````
